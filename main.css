@@ -1,0 +1,11 @@
+div {
+    float:left;
+    width: 10%;
+    padding-bottom: 10%; /* = width for a 1:1 aspect ratio */
+    margin:0.26%;
+    background-color: #1E1E1E;
+}
+
+.container {
+	max-width: 1200px;
+}

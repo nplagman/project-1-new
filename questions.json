@@ -1,0 +1,41 @@
+
+{
+"QA1" 		:	"The \"MVP\" quarterback whose team is 14-6 when he doesn’t play",
+"value"		:	100,
+"answers"	:	[
+	"Tom Brady", 
+	"Brady" ]
+}
+ //I'm not getting how they're using jquery or js or ajax to link JSON and pull data. And the 
+ //dickhead from lynda.com used var info = above all of his json, then just stopped, so I don't know what to use.
+{
+"QA2" 	:	"The quarterback who really stupid people think is better than Peyton Manning",
+"value"		:	200,
+"answers"	:	[
+	"Tom Brady", 
+	"Brady" ]
+}
+
+{
+"QA3" 	:	"The quarterback who was named Super Bowl MVP after his first SB win thanks to his whopping 145 passing yards",
+"value"		:	300,
+"answers"	:	[
+	"Tom Brady", 
+	"Brady" ]
+}
+
+{
+"QA4" 	:	"An undeniably attractive quarterback married to a supermodel who isn't as hot as she's made out to be, ya know?",
+"value"		:	400,
+"answers"	:	[
+	"Tom Brady", 
+	"Brady" ]
+}
+
+{
+"QA5" 	:	"This quarterback has the greatest discrepancy in completion percentage between when he has time to throw and when he's hurried",
+"value"		:	500,
+"answers"	:	[
+	"Tom Brady", 
+	"Brady" ]
+}
