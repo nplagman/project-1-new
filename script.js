@@ -1,10 +1,9 @@
-//scoreboard, next question button, category headers, game over, disable board when question posed, enter submit
-//PERFECT WORLD: toggle player, sound fx, cursor in input field
+//scoreboard, next question button, category headers, game over, disable board when question posed
+// cursor in input field, prettier scoreboard, Trebek, sound fx
 
 $(document).ready(function() {
   $(".question").hide();
   $("#moveon").hide();
-
 
 
 	var score = 0;
@@ -34,6 +33,10 @@ $(document).ready(function() {
 //would prefer to not have to do one of these for every question; there must be a better way.
 $("#A1").one('click', function() {
 var questionValue = $(this).data("questionvalue");
+// var clickHandler= $(this).data("events")['click'];  
+// $('.well').off("click");
+// $('.well').disable("click");
+// $('div:not(.question)').attr('disabled');
 				 $(".question").show();				
 				 $('<h4>The \"MVP\" quarterback whose team is 14-6 when he doesn’t play.</h4>').appendTo('.question');
 				 $('#submit').one("click", function() {
