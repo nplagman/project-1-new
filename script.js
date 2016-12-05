@@ -198,7 +198,7 @@ var questionValue = $(this).data("questionvalue");
 $("#B1").one('click', function() {
 var questionValue = $(this).data("questionvalue");
 				 $(".question").show();
-				 $('<h4>The most badass midget of all\-time.</h4>').appendTo('.question');
+				 $('<h4>The most badass midget of all\-time.</h4><h3>Hint: GoT<br>Hint#2: character\'s name</h3>').appendTo('.question');
 				 $('#submit').one('click', function() {
 				 	 $("#answer").on('input')
 				        var answer = $('#answer').val(); //what does this mean in words? 

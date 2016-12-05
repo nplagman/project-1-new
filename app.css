@@ -2,6 +2,7 @@
 #wrapper {
 	width: 100%;
 	height: 100%;
+	padding-left:20px;
 }
 
 .blank {
@@ -16,9 +17,15 @@ div[id^="A"] {
 	/*background: black;*/
 
 }
+.scorename {
+	padding-left: 15px;
+	padding-right: 10px;
+
+}
 .score {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	font-size: 30px;
+	padding-top: 13px;
 }
 .row {
 	height: 90px;
@@ -37,6 +44,20 @@ div[id^="A"] {
 	position:relative; 
 	
 }
+.cat {
+	display: inline-block;
+	height: 50px;
+	width: 80px;
+	margin: 3px;
+	background: black;
+	position:relative;
+	border-radius: 10px; 
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+
 
 form {
 	color: black;
@@ -78,7 +99,7 @@ form {
 	border-radius: 6px;
 	position: absolute;
 	top: 100px;
-	left: 450px;
+	left: 470px;
 	text-align: center;
 	vertical-align: middle;
 	padding-top: 40px;
@@ -99,7 +120,10 @@ h4 {
 	text-align: center;
 }
 
-
+#moveon {
+	height: 30px;
+	margin-left: 50px;
+}
 
 
 /*body {
