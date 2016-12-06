@@ -8,6 +8,18 @@
   <meta name="description" content="">
   <meta name="author" content="N Plagman">
   <!-- Latest compiled and minified CSS -->
+  <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBWcXQtCiff7cPyqzg0CRkeulzJL2NFaZU",
+    authDomain: "nicks-jeopardy.firebaseapp.com",
+    databaseURL: "https://nicks-jeopardy.firebaseio.com",
+    storageBucket: "nicks-jeopardy.appspot.com",
+    messagingSenderId: "657375859018"
+  };
+  firebase.initializeApp(config);
+</script>
 
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -20,6 +32,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- CSS FILE LINK    -->
+
 
 <link rel="stylesheet" type="text/css" href="app.css">
 
@@ -35,8 +48,10 @@
            <div class="title"><h2>Nick's Jeopardy</h2></div>
             <div class="question">
             <form> Your Answer:
-          <input type="text" id="answer" /></form>
-          <button id="submit">Submit</button>
+              <input type="text" id="answer" />
+            </form>
+            <button id="submit">Submit</button>
+          
           <p id="instruct">When you're sure about your probably wrong answer, click submit</p>
 
          <!--  <div class = "result"> </div> -->
